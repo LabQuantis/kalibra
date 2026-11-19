@@ -92,7 +92,7 @@ window.PESHORJA = {
     titulli: "Modeli i Ditës: Vlerësimi i Performancës",
     pershkrimi: "Jepni gjykimin tuaj në formularin e sotëm. Përgjigjet mblidhen direkt në Google Forms.",
     butoniTekst: "Plotëso Google Form",
-    googleFormUrl: "https://forms.gle/db4dCG35nsuxxiAa9"
+    googleFormUrl: "https://forms.gle/bhA4yUcjES714Ckb9"
   },
 
   /* ---------------------------------------------------------------
