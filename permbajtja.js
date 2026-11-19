@@ -75,7 +75,7 @@ window.PESHORJA = {
      --------------------------------------------------------------- */
   modeliIDites: {
     aktiv: true,
-    titulli: "Modeli i Ditës: Vlerësimi i Performancës",
+    titulli: "Modeli i Ditës: Vlerësimi i i integruar",
     pershkrimi: "Jepni gjykimin tuaj në formularin e sotëm. Përgjigjet mblidhen direkt në Google Forms.",
     butoniTekst: "Plotëso Google Form",
     googleFormUrl: "https://forms.gle/bhA4yUcjES714Ckb9"
