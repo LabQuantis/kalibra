@@ -189,14 +189,14 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 .hero .wrap { display: grid; grid-template-columns: minmax(0, 1fr); gap: 32px; padding-block: 44px 40px; }
 @media (min-width: 1000px) {
-  .hero .wrap { 
-    max-width: none; 
-    grid-template-columns: minmax(0, 1.35fr) minmax(340px, 460px); 
-    gap: 32px 48px; 
-    padding-block: 64px 48px; 
-    padding-left: max(32px, calc((100vw - var(--wrap)) / 2 + 32px));
-    padding-right: max(16px, env(safe-area-inset-right, 0px));
-    align-items: start; 
+  .hero .wrap {
+    max-width: 100%;
+    grid-template-columns: minmax(0, 1fr) 420px;
+    gap: 32px 48px;
+    padding-block: 64px 48px;
+    padding-left: max(32px, calc((100% - var(--wrap)) / 2 + 32px));
+    padding-right: 16px;
+    align-items: start;
   }
 }
 
