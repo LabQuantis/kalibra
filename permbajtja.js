@@ -1,26 +1,13 @@
 /* =====================================================================
    PËRMBAJTJA E FAQES
    ---------------------------------------------------------------------
-   Këtu ndryshon gjithçka që shfaqet në faqe: tekstet, modelet, temat e
-   votimit, formularët, reklamat dhe lidhjet. Skedarin index.html nuk ke
-   nevojë ta prekësh.
-
-   Pak rregulla:
-   - Tekstet shkruhen brenda thonjëzave: "kështu". Nëse teksti ka vetë
-     thonjëza, përdor « » ose ‘ ’ brenda tij.
-   - Pas çdo elementi në një listë vihet presje:  { ... },  { ... },
-   - Datat shkruhen VVVV-MM-DD, p.sh. "2026-11-30".
-   - Numrat dhjetorë shkruhen me pikë: 0.387 (faqja i shfaq me presje).
-   - Nëse pas një ndryshimi faqja nuk hapet, ajo të tregon rreshtin ku
-     është gabimi. Zakonisht mungon një presje ose një thonjëz.
-   - Elementet me  shembull: true  marrin etiketën "Shembull". Hiqe këtë
-     rresht kur vendos përmbajtjen tënde reale.
+   
    ===================================================================== */
 
 window.PESHORJA = {
 
   // true = shfaq shiritin "Version demonstrues" në krye të faqes.
-  // Vendose false kur faqja del publike me përmbajtje reale.
+  
   demo: false,
 
   /* ---------------------------------------------------------------
@@ -28,11 +15,11 @@ window.PESHORJA = {
      --------------------------------------------------------------- */
   faqja: {
     emri: "KalibrA",
-    pershkrimi: "Platformë per modelime dhe parashikime socio-ekonomike dhe shkencore-Socio-Economic and Scientific Modeling & Forecasting Platform.",
+    pershkrimi: "Platformë per modelime socio-ekonomike dhe shkencore.",
     qyteti: "Tiranë/Tirana",
-    titulli: "Te njohësh do të thotë të masësh saktë.",
+    titulli: "Ndërtojmë qartësi përmes matjeve dhe modelimit.",
     titulliTheksuar: "SocioLab&Quantis",
-    hyrja: "Analizojmë Nëpërmjet Modelimit: Socio-ekonomi&Vendimmarrje&Shkencë.",
+    hyrja: "Analizojmë : Socio-ekonomi&Vendimmarrje&Shkencë.",
     email: "metrics.and.models@proton.me",
     telefoni: "",          // p.sh. "+355 69 123 4567"; bosh = nuk shfaqet
     autori: "Admin",            // emri yt; shfaqet në fund të faqes
@@ -41,8 +28,7 @@ window.PESHORJA = {
 
   /* ---------------------------------------------------------------
      2. LIDHJA ME GOOGLE SHEETS (shih UDHEZUES.md, hapi 4)
-     Bosh = votat, pëlqimet dhe kërkesat ruhen vetëm në shfletuesin e
-     vizitorit. Kur e vendos, ato ruhen te tabela jote në Google Sheets.
+     
      --------------------------------------------------------------- */
   serveri: {
     url: "https://script.google.com/macros/s/AKfycbwk6xXgtfcXdcQ51DOTl6Ht-poenCwZXycHlPB2Z3IHV96TfFBWOTXKc-3OzW0mNwYu/exec"   
