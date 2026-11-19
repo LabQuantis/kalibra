@@ -2278,7 +2278,14 @@ dialog.modal::backdrop { background: var(--scrim); }
      16. Nisja
      ================================================================= */
   function sigurt(fn, emri) { try { fn(); } catch (e) { console.error("Gabim te " + emri, e); } }
-  /*sigurt(nisDritaren, "dritarja");*/  
+  sigurt(nisDritaren, "dritarja");
+   var dritarjaWrap = document.getElementById("dritarja-wrap");
+if (dritarjaWrap) {
+  dritarjaWrap.addEventListener("toggle", function () {
+    var chip = dritarjaWrap.querySelector(".weather-bar .chip");
+    if (chip) chip.textContent = dritarjaWrap.open ? "Mbyll ▴" : "Hap ▾";
+  });
+}
   sigurt(nisModelinEDites, "modeliIDites");
   sigurt(vizatoVotimin, "votimi");
   sigurt(vizatoGjetjet, "gjetjet");
